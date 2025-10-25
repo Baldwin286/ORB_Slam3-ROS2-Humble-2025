@@ -1,0 +1,22 @@
+[0.024s] Invoking command in '/home/phamthanhbien/colcon_ws/src/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phamthanhbien/ros2_demo_ws/install/python_pkg:/home/phamthanhbien/ardu_ws/install/ardupilot_cartographer:/home/phamthanhbien/ardu_ws/install/ardupilot_dds_tests:/home/phamthanhbien/devrobot_ws/install/serial_motor_demo:/home/phamthanhbien/ros2_ws/install/my_py_pkg:/opt/ros/humble /opt/cmake/bin/cmake --build /home/phamthanhbien/colcon_ws/src/build/orbslam3 -- -j8 -l8
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target rgbd[0m
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[0.070s] [35m[1mConsolidate compiler generated dependencies of target stereo[0m
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target mono[0m
+[0.125s] [ 25%] [32m[1mLinking CXX executable stereo[0m
+[0.125s] [ 25%] [32m[1mLinking CXX executable stereo-inertial[0m
+[0.125s] [ 41%] Built target rgbd
+[0.129s] [ 66%] Built target mono
+[0.657s] /usr/bin/ld: CMakeFiles/stereo-inertial.dir/src/stereo-inertial/stereo-inertial-node.cpp.o: undefined reference to symbol '_ZN2cv23initUndistortRectifyMapERKNS_11_InputArrayES2_S2_S2_NS_5Size_IiEEiRKNS_12_OutputArrayES7_'
+[0.657s] /usr/bin/ld: /lib/x86_64-linux-gnu/libopencv_calib3d.so.4.5d: error adding symbols: DSO missing from command line
+[0.663s] /usr/bin/ld: CMakeFiles/stereo.dir/src/stereo/stereo-slam-node.cpp.o: undefined reference to symbol '_ZN2cv23initUndistortRectifyMapERKNS_11_InputArrayES2_S2_S2_NS_5Size_IiEEiRKNS_12_OutputArrayES7_'
+[0.664s] /usr/bin/ld: /lib/x86_64-linux-gnu/libopencv_calib3d.so.4.5d: error adding symbols: DSO missing from command line
+[0.664s] collect2: error: ld returned 1 exit status
+[0.666s] gmake[2]: *** [CMakeFiles/stereo-inertial.dir/build.make:216: stereo-inertial] Error 1
+[0.666s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/stereo-inertial.dir/all] Error 2
+[0.666s] gmake[1]: *** Waiting for unfinished jobs....
+[0.670s] collect2: error: ld returned 1 exit status
+[0.672s] gmake[2]: *** [CMakeFiles/stereo.dir/build.make:217: stereo] Error 1
+[0.672s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/stereo.dir/all] Error 2
+[0.673s] gmake: *** [Makefile:146: all] Error 2
+[0.676s] Invoked command in '/home/phamthanhbien/colcon_ws/src/build/orbslam3' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phamthanhbien/ros2_demo_ws/install/python_pkg:/home/phamthanhbien/ardu_ws/install/ardupilot_cartographer:/home/phamthanhbien/ardu_ws/install/ardupilot_dds_tests:/home/phamthanhbien/devrobot_ws/install/serial_motor_demo:/home/phamthanhbien/ros2_ws/install/my_py_pkg:/opt/ros/humble /opt/cmake/bin/cmake --build /home/phamthanhbien/colcon_ws/src/build/orbslam3 -- -j8 -l8

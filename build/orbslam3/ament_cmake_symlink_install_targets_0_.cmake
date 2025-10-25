@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/phamthanhbien/colcon_ws/build/orbslam3/mono" "/home/phamthanhbien/colcon_ws/build/orbslam3/rgbd" "/home/phamthanhbien/colcon_ws/build/orbslam3/stereo" "/home/phamthanhbien/colcon_ws/build/orbslam3/stereo-inertial" "TARGETS" "mono" "rgbd" "stereo" "stereo-inertial" "DESTINATION" "lib/orbslam3")

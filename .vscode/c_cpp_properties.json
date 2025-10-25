@@ -1,0 +1,31 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/phamthanhbien/ardu_ws/install/sdformat_urdf/include/**",
+        "/home/phamthanhbien/ardu_ws/install/ros_ign_interfaces/include/**",
+        "/home/phamthanhbien/ardu_ws/install/ros_gz_sim/include/**",
+        "/home/phamthanhbien/ardu_ws/install/ros_gz_bridge/include/**",
+        "/home/phamthanhbien/ardu_ws/install/ros_gz_interfaces/include/**",
+        "/home/phamthanhbien/ardu_ws/install/micro_ros_agent/include/**",
+        "/home/phamthanhbien/ardu_ws/install/ardupilot_msgs/include/**",
+        "/home/phamthanhbien/devrobot_ws/install/serial_motor_demo_msgs/include/**",
+        "/home/phamthanhbien/turtlebot3_ws/install/turtlebot3_gazebo/include/**",
+        "/home/phamthanhbien/turtlebot3_ws/install/turtlebot3_fake_node/include/**",
+        "/opt/ros/humble/include/**",
+        "/home/phamthanhbien/colcon_ws/src/orbslam3_ros2/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

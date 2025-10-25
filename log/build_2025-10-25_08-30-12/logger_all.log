@@ -1,0 +1,157 @@
+[0.158s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.158s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7f49ec46c550>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f49ec599ba0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f49ec599ba0>>, mixin_verb=('build',))
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.452s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.453s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.453s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/phamthanhbien/colcon_ws'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.480s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.481s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.482s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/build) ignored
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/install) ignored
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/log) ignored
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'ignore'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'ignore_ament_install'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['colcon_pkg']
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'colcon_pkg'
+[0.483s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['colcon_meta']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'colcon_meta'
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extensions ['ros']
+[0.484s] Level 1:colcon.colcon_core.package_identification:_identify(src/orbslam3_ros2) by extension 'ros'
+[0.487s] DEBUG:colcon.colcon_core.package_identification:Package 'src/orbslam3_ros2' with type 'ros.ament_cmake' and name 'orbslam3'
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.487s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.513s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.518s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 27 installed packages in /home/phamthanhbien/ardu_ws/install
+[0.519s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/phamthanhbien/robotpbl_ws/install
+[0.520s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/phamthanhbien/devrobot_ws/install
+[0.521s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/phamthanhbien/ros2_ws/install
+[0.521s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/phamthanhbien/turtlebot3_ws/install
+[0.522s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/phamthanhbien/ros2_demo_ws/install
+[0.524s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 374 installed packages in /opt/ros/humble
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_args' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_target' from command line to 'None'
+[0.584s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_clean_cache' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_clean_first' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'cmake_force_configure' from command line to 'False'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'ament_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'catkin_cmake_args' from command line to 'None'
+[0.585s] Level 5:colcon.colcon_core.verb:set package 'orbslam3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.585s] DEBUG:colcon.colcon_core.verb:Building package 'orbslam3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/phamthanhbien/colcon_ws/build/orbslam3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/phamthanhbien/colcon_ws/install/orbslam3', 'merge_install': False, 'path': '/home/phamthanhbien/colcon_ws/src/orbslam3_ros2', 'symlink_install': True, 'test_result_base': None}
+[0.585s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.586s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.586s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/phamthanhbien/colcon_ws/src/orbslam3_ros2' with build type 'ament_cmake'
+[0.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/phamthanhbien/colcon_ws/src/orbslam3_ros2'
+[0.589s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.590s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.590s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phamthanhbien/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phamthanhbien/ros2_demo_ws/install/python_pkg:/home/phamthanhbien/ardu_ws/install/ardupilot_cartographer:/home/phamthanhbien/ardu_ws/install/ardupilot_dds_tests:/home/phamthanhbien/devrobot_ws/install/serial_motor_demo:/home/phamthanhbien/ros2_ws/install/my_py_pkg:/opt/ros/humble /opt/cmake/bin/cmake /home/phamthanhbien/colcon_ws/src/orbslam3_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phamthanhbien/colcon_ws/install/orbslam3
+[2.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phamthanhbien/colcon_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phamthanhbien/ros2_demo_ws/install/python_pkg:/home/phamthanhbien/ardu_ws/install/ardupilot_cartographer:/home/phamthanhbien/ardu_ws/install/ardupilot_dds_tests:/home/phamthanhbien/devrobot_ws/install/serial_motor_demo:/home/phamthanhbien/ros2_ws/install/my_py_pkg:/opt/ros/humble /opt/cmake/bin/cmake /home/phamthanhbien/colcon_ws/src/orbslam3_ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/phamthanhbien/colcon_ws/install/orbslam3
+[2.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phamthanhbien/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phamthanhbien/ros2_demo_ws/install/python_pkg:/home/phamthanhbien/ardu_ws/install/ardupilot_cartographer:/home/phamthanhbien/ardu_ws/install/ardupilot_dds_tests:/home/phamthanhbien/devrobot_ws/install/serial_motor_demo:/home/phamthanhbien/ros2_ws/install/my_py_pkg:/opt/ros/humble /opt/cmake/bin/cmake --build /home/phamthanhbien/colcon_ws/build/orbslam3 -- -j8 -l8
+[149.944s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phamthanhbien/colcon_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phamthanhbien/ros2_demo_ws/install/python_pkg:/home/phamthanhbien/ardu_ws/install/ardupilot_cartographer:/home/phamthanhbien/ardu_ws/install/ardupilot_dds_tests:/home/phamthanhbien/devrobot_ws/install/serial_motor_demo:/home/phamthanhbien/ros2_ws/install/my_py_pkg:/opt/ros/humble /opt/cmake/bin/cmake --build /home/phamthanhbien/colcon_ws/build/orbslam3 -- -j8 -l8
+[149.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/phamthanhbien/colcon_ws/build/orbslam3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phamthanhbien/ros2_demo_ws/install/python_pkg:/home/phamthanhbien/ardu_ws/install/ardupilot_cartographer:/home/phamthanhbien/ardu_ws/install/ardupilot_dds_tests:/home/phamthanhbien/devrobot_ws/install/serial_motor_demo:/home/phamthanhbien/ros2_ws/install/my_py_pkg:/opt/ros/humble /opt/cmake/bin/cmake --install /home/phamthanhbien/colcon_ws/build/orbslam3
+[150.108s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam3)
+[150.123s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/phamthanhbien/colcon_ws/build/orbslam3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/phamthanhbien/ros2_demo_ws/install/python_pkg:/home/phamthanhbien/ardu_ws/install/ardupilot_cartographer:/home/phamthanhbien/ardu_ws/install/ardupilot_dds_tests:/home/phamthanhbien/devrobot_ws/install/serial_motor_demo:/home/phamthanhbien/ros2_ws/install/my_py_pkg:/opt/ros/humble /opt/cmake/bin/cmake --install /home/phamthanhbien/colcon_ws/build/orbslam3
+[150.182s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3' for CMake module files
+[150.183s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3' for CMake config files
+[150.185s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam3', 'cmake_prefix_path')
+[150.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/hook/cmake_prefix_path.ps1'
+[150.200s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/hook/cmake_prefix_path.dsv'
+[150.203s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/hook/cmake_prefix_path.sh'
+[150.207s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3/lib'
+[150.207s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3/bin'
+[150.207s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3/lib/pkgconfig/orbslam3.pc'
+[150.211s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3/lib/python3.10/site-packages'
+[150.211s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3/bin'
+[150.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/package.ps1'
+[150.215s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/package.dsv'
+[150.217s] INFO:colcon.colcon_core.shell:Creating package script '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/package.sh'
+[150.220s] INFO:colcon.colcon_core.shell:Creating package script '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/package.bash'
+[150.223s] INFO:colcon.colcon_core.shell:Creating package script '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/package.zsh'
+[150.225s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phamthanhbien/colcon_ws/install/orbslam3/share/colcon-core/packages/orbslam3)
+[150.231s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(orbslam3)
+[150.232s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3' for CMake module files
+[150.232s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3' for CMake config files
+[150.233s] Level 1:colcon.colcon_core.shell:create_environment_hook('orbslam3', 'cmake_prefix_path')
+[150.233s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/hook/cmake_prefix_path.ps1'
+[150.234s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/hook/cmake_prefix_path.dsv'
+[150.234s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/hook/cmake_prefix_path.sh'
+[150.235s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3/lib'
+[150.235s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3/bin'
+[150.235s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3/lib/pkgconfig/orbslam3.pc'
+[150.236s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3/lib/python3.10/site-packages'
+[150.236s] Level 1:colcon.colcon_core.environment:checking '/home/phamthanhbien/colcon_ws/install/orbslam3/bin'
+[150.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/package.ps1'
+[150.237s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/package.dsv'
+[150.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/package.sh'
+[150.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/package.bash'
+[150.239s] INFO:colcon.colcon_core.shell:Creating package script '/home/phamthanhbien/colcon_ws/install/orbslam3/share/orbslam3/package.zsh'
+[150.239s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/phamthanhbien/colcon_ws/install/orbslam3/share/colcon-core/packages/orbslam3)
+[150.241s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[150.243s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[150.245s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[150.246s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[150.360s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[150.360s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[150.361s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[150.547s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[150.549s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phamthanhbien/colcon_ws/install/local_setup.ps1'
+[150.552s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/phamthanhbien/colcon_ws/install/_local_setup_util_ps1.py'
+[150.554s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phamthanhbien/colcon_ws/install/setup.ps1'
+[150.583s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phamthanhbien/colcon_ws/install/local_setup.sh'
+[150.584s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/phamthanhbien/colcon_ws/install/_local_setup_util_sh.py'
+[150.585s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phamthanhbien/colcon_ws/install/setup.sh'
+[150.590s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phamthanhbien/colcon_ws/install/local_setup.bash'
+[150.591s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phamthanhbien/colcon_ws/install/setup.bash'
+[150.598s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/phamthanhbien/colcon_ws/install/local_setup.zsh'
+[150.599s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/phamthanhbien/colcon_ws/install/setup.zsh'

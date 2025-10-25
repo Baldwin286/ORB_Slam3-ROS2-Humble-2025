@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target rgbd[0m
+[35m[1mConsolidate compiler generated dependencies of target stereo-inertial[0m
+[35m[1mConsolidate compiler generated dependencies of target stereo[0m
+[35m[1mConsolidate compiler generated dependencies of target mono[0m
+[ 25%] [32m[1mLinking CXX executable stereo[0m
+[ 25%] [32m[1mLinking CXX executable stereo-inertial[0m
+[ 41%] Built target rgbd
+[ 66%] Built target mono
