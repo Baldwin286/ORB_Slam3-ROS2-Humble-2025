@@ -50,7 +50,7 @@ class CameraPublisher(Node):
         self.bridge = CvBridge()
 
         
-        self.cap = cv2.VideoCapture(2)  
+        self.cap = cv2.VideoCapture(0)  
 
     
         if not self.cap.isOpened():
